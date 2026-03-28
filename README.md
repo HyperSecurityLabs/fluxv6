@@ -66,7 +66,7 @@ FluxV6 is an advanced network load testing tool that builds upon FluxV5 with add
 
 ### Email Testing Only
 ```bash
-./fluxv6 --email-testing true --email-server smtp.gmail.com --email-username user@gmail.com --email-password apppassword --email-count 20
+./fluxv6  --email-testing --email-server smtp.gmail.com --email-username user@gmail.com --email-password apppassword --email-count 20
 ```
 
 ### Combined Web and Email Testing
@@ -76,7 +76,7 @@ FluxV6 is an advanced network load testing tool that builds upon FluxV5 with add
 
 ### Auto-detect Email Server
 ```bash
-./fluxv6 --email-testing true --email-username user@gmail.com --email-password apppassword
+./fluxv6  -t --email-testing --email-username user@gmail.com --email-password apppassword
 ```
 
 ## Email Server Configurations
@@ -91,7 +91,7 @@ The tool automatically detects configurations for:
 ### Manual Configuration
 For custom email servers:
 ```bash
-./fluxv6 --email-testing true --email-server custom.company.com --email-port 587 --email-username user@company.com --email-password password
+./fluxv6  -t --email-testing  --email-server custom.company.com --email-port 587 --email-username user@company.com --email-password password
 ```
 
 ## Email Testing Features
