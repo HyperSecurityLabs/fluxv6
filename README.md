@@ -286,7 +286,7 @@ FluxV6 can be integrated with:
 
 ## License
 
-This tool is part of the HyperSecurity toolkit and is released under the appropriate open-source license for security research tools.
+This tool is part of the HyperSecurity toolkit and is released under(GPL) the appropriate open-source license for security research tools.
 
 ## Disclaimer
 
